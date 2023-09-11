@@ -1,0 +1,22 @@
+.home-container {
+    background-image: url('../../assets/photos/background3.jpg');
+    display: flex; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    height: 100vh;
+  
+  .content {
+    padding-left: 30vh;
+    padding-top: 40vh;
+
+    .button-container {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 10vh;
+        padding-left: 10vh;
+        padding-right: 10vh;
+      }
+
+  }
+}
